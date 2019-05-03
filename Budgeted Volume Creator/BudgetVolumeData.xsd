@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BudgetVolumeData" targetNamespace="http://tempuri.org/BudgetVolumeData.xsd" xmlns:mstns="http://tempuri.org/BudgetVolumeData.xsd" xmlns="http://tempuri.org/BudgetVolumeData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BudgetVolumeData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BudgetVolumeData" msprop:Generator_UserDSName="BudgetVolumeData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MonthlyBudgetVolume" msprop:Generator_TableClassName="MonthlyBudgetVolumeDataTable" msprop:Generator_TableVarName="tableMonthlyBudgetVolume" msprop:Generator_TablePropName="MonthlyBudgetVolume" msprop:Generator_RowDeletingName="MonthlyBudgetVolumeRowDeleting" msprop:Generator_RowChangingName="MonthlyBudgetVolumeRowChanging" msprop:Generator_RowEvHandlerName="MonthlyBudgetVolumeRowChangeEventHandler" msprop:Generator_RowDeletedName="MonthlyBudgetVolumeRowDeleted" msprop:Generator_UserTableName="MonthlyBudgetVolume" msprop:Generator_RowChangedName="MonthlyBudgetVolumeRowChanged" msprop:Generator_RowEvArgName="MonthlyBudgetVolumeRowChangeEvent" msprop:Generator_RowClassName="MonthlyBudgetVolumeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:long" minOccurs="0" />
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:string" minOccurs="0" />
+              <xs:element name="ImportFull" msprop:Generator_ColumnVarNameInTable="columnImportFull" msprop:Generator_ColumnPropNameInRow="ImportFull" msprop:Generator_ColumnPropNameInTable="ImportFullColumn" msprop:Generator_UserColumnName="ImportFull" type="xs:double" minOccurs="0" />
+              <xs:element name="ImportEmpty" msprop:Generator_ColumnVarNameInTable="columnImportEmpty" msprop:Generator_ColumnPropNameInRow="ImportEmpty" msprop:Generator_ColumnPropNameInTable="ImportEmptyColumn" msprop:Generator_UserColumnName="ImportEmpty" type="xs:double" minOccurs="0" />
+              <xs:element name="ExportFull" msprop:Generator_ColumnVarNameInTable="columnExportFull" msprop:Generator_ColumnPropNameInRow="ExportFull" msprop:Generator_ColumnPropNameInTable="ExportFullColumn" msprop:Generator_UserColumnName="ExportFull" type="xs:double" minOccurs="0" />
+              <xs:element name="ExportEmpty" msprop:Generator_ColumnVarNameInTable="columnExportEmpty" msprop:Generator_ColumnPropNameInRow="ExportEmpty" msprop:Generator_ColumnPropNameInTable="ExportEmptyColumn" msprop:Generator_UserColumnName="ExportEmpty" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
